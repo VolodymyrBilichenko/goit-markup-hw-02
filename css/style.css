@@ -14,10 +14,11 @@
 body{
   font-family: var(--main-font);
   font-size: 16px;
-  line-height: calc(24 / 16);
+  /* line-height: Line-height(24)/font-size(16)=1.5 */
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.h1-hidden{
+.h-hidden{
   position: absolute;
   width: 1px;
   height: 1px;
@@ -66,7 +67,7 @@ button {
   font-family: var(--second-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.3;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4D5AE5;
@@ -75,7 +76,7 @@ button {
   font-family: var(--second-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.3;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--navy-blue);
@@ -89,7 +90,7 @@ button {
 .header .header-menu a{
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   color: var(--navy-blue);
   transition: all 0.3s ease;
 }
@@ -101,9 +102,8 @@ button {
 }
 .header .header-social a{
   margin: 0 20px;
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-grey);
 }
@@ -116,7 +116,7 @@ button {
 .banner h1{
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--white);
   width: 100%;
@@ -125,7 +125,7 @@ button {
 .banner button{ 
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white);
   background: var(--iris-blue);
@@ -143,26 +143,25 @@ button {
   width: 100%;
   max-width: 264px;
 }
-.info .info-block h2{
+.info .info-block h3{
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
 .info .info-block p{
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-grey);
 }
 
-.section-h2{
+.title-h2{
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -187,15 +186,14 @@ button {
 .team .human-info h3{
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   margin: 32px 0 8px;
 }
 .team .human-info p{
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-grey);
 }
@@ -208,9 +206,8 @@ button {
   color: var(--cloud-white);
 }
 .footer h2{
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--frover-white);
   width: 100%;
@@ -236,7 +233,7 @@ button {
 .portfolio .portfolio-menu button{
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--iris-blue);
 
@@ -269,16 +266,15 @@ button {
 .portfolio .portfolio-item h2{
   font-weight: 500;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
   margin: 32px 0 8px;
   margin-left: 16px;
 }
 .portfolio .portfolio-item p{
-  font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-grey);
   margin-left: 16px;
