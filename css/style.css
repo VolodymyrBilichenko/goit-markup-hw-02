@@ -177,13 +177,12 @@ button {
   padding: 120px 0;
   background: var(--cloud-white);
 }
-.team .human-info{
+.team .staff li{
   background: var(--white);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  padding-bottom: 32px;
 }
-.team .human-info h3{
+.team .staff h3{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -191,7 +190,7 @@ button {
   color: var(--navy-blue);
   margin: 32px 0 8px;
 }
-.team .human-info p{
+.team .staff p{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -205,7 +204,7 @@ button {
 .footer .logotype span{
   color: var(--cloud-white);
 }
-.footer h2{
+.footer p{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
